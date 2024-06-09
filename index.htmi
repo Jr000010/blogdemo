@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <span id="logo">
+                <h3>Somecha</h3>
+            </span>
+            <button id="menuButton" onclick="toggleMenu()">M</button>
+            <nav id="navMenu" class="mobileMenuNotVisible">
+            <!-- <nav id="navMenu" class="mobileMenuVisible"> -->
+                <!-- <ul>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">About</a></li>
+                    <li>Policies
+                        <ul>
+                            <li><a href="">Privacy Policies</a></li>
+                            <li><a href="">Terms of Usage</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul> -->
+                    <span><a href="">Services</a></span>
+                    <span><a href="">Contact</a></span>
+                    <span><a href="">FAQs</a></span>
+                    <span><a href="">About</a></span>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h3>
+            Main Content
+        </h3>
+    </main>
+
+    <footer>
+        <div class="socialLinks">socialLinks</div>
+        <div class="adresses">adresses</div>
+        <div class="quickLinks">quickLinks</div>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
