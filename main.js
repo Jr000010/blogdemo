@@ -1,7 +1,6 @@
-const menuButton = document.querySelector('#menuButton');
-const navMenu = document.querySelector('#navMenu');
+const mobileMenu = document.querySelector('#mobileMenu');
 
-toggleMenu = function() {
-    navMenu.classList.toggle("mobileMenuVisible")
-    navMenu.classList.toggle("mobileMenuNotVisible")
+togglemobileMenu = function() {
+    mobileMenu.classList.toggle("mobileMenuVisible")
+    mobileMenu.classList.toggle("mobileMenuNotVisible")
 }
