@@ -2,21 +2,42 @@ header > div {
     background-color: aquamarine;
 }
 
+.desktopMenu {
+    background-color: blue;
+}
+
 .mobileMenuNotVisible {
     display: none;
 }
 
-#navMenu a {
+#navMenu span {
+    background-color: chocolate;
     text-decoration: none;
+    transition: color 1s ease-in, transform ease 0.2s;
 }
 
-#navMenu a:hover, #navMenu a:active {
-    color:blue;
+#navMenu span:hover {
+    color:red;
+    transform: scale(0.95);
 }
 
-.mobileMenuVisible {
+#mobileMenu {
     display: flex;
     flex-direction: column;
     text-align: end;
     background-color: bisque;
+    height: 100vh;
+    z-index: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition */
 }
+
+.mobileMenuVisible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.mobileMenuNotVisible {
+    opacity: 0.5;
+    transform:translateX(100%)
+}
+
